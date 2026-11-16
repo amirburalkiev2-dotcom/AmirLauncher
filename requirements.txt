@@ -1,0 +1,7 @@
+# Версии закреплены: лаунчер проверен именно с ними.
+# minecraft-launcher-lib — ветка 8.x: mll_compat.py подменяет загрузку Forge по признакам, а не по версии.
+# Перед обновлением прогоняй тесты: python -m pytest tests
+PySide6==6.12.0
+minecraft-launcher-lib>=8.0,<9
+psutil==7.2.2
+requests==2.33.0

@@ -1,0 +1,3 @@
+[tool.black]
+line-length = 120
+extend-exclude = "amirlauncher/vendor"  # сторонний код (rarfile) — как есть
